@@ -16,7 +16,7 @@ pipeline{
 	stages{
 		stage("Clean Worksapce"){
 			steps{
-				cleanWS()
+				cleanWs()
 			}
 		}
 		stage("Checkout from git"){
