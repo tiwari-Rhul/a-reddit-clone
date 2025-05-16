@@ -14,7 +14,7 @@ pipeline{
 		IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
 	}
 	stages{
-		satge("Clean Worksapce"){
+		stage("Clean Worksapce"){
 			steps{
 				cleansWS()
 			}
