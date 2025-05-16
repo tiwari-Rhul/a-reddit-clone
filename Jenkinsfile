@@ -53,5 +53,5 @@ pipeline{
 				sh "trivy fs . > trivyfs.txt"
 			}
 		}
-		
+		}
 }
